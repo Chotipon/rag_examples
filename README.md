@@ -56,7 +56,15 @@ By the end of this workshop, you will understand:
 |----------|-------------|
 | `01_embedding_visualization.ipynb` | Visualize word embeddings in 3D space + Cosine similarity heatmap |
 | `02_model_comparison.ipynb` | Compare how different embedding models represent the same words |
-| `03_multilingual_comparison.ipynb` | **NEW!** Compare Thai support: what happens with unsupported languages? |
+| `03_multilingual_comparison.ipynb` | Compare Thai support: what happens with unsupported languages? |
+| `04_faiss_index_creation.ipynb` | **NEW!** Create FAISS vector index from sentences CSV |
+| `05_faiss_vector_search.ipynb` | **NEW!** Test and explore vector similarity search |
+
+## 📁 Data Files
+
+| File | Description |
+|------|-------------|
+| `sentences.csv` | 100 sentences across 12 categories for embedding/search |
 
 ## 🚀 Getting Started
 
@@ -78,6 +86,7 @@ jupyter notebook
 - `seaborn` - Beautiful heatmaps
 - `scikit-learn` - t-SNE dimensionality reduction
 - `numpy`, `pandas` - Data manipulation
+- `faiss-cpu` - Efficient similarity search
 
 ## 🔑 Key Concepts
 
